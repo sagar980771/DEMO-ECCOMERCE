@@ -1,0 +1,253 @@
+.heading-name a{
+	text-decoration: none;
+	color:#060606!important;
+}
+.line{
+	 border-left: 2px solid blue;
+     height: 50px;
+     padding:0 5px;
+}
+.navigation-bar ul{
+    margin-top:20px;
+}
+.navigation-bar ul li{
+    display:inline-block;
+    padding:5px;
+}
+.login-allignment{
+	margin-top:24.90px;
+	text-align: center;
+}
+.login-allignment a{
+	text-decoration: none;
+}
+.search-box{
+	margin-top:15px;
+}
+.effect-shine{
+	padding-right: 10px;
+}
+/* effect-shine */
+
+a.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+.sign-up{
+	padding-right: 50px;
+}
+.fa-heart-o:before{
+	font-size:50px;
+	color: black;
+	}
+	.wishlist{
+	
+    display: block;
+  
+	}
+	.fa-cart-arrow-down:before{
+	font-size: 50px;
+	color: black;
+	}
+	.wraper-flex{
+		display: flex;
+		justify-content:space-between;
+	}
+	.fa-heart-o:before:hover{
+	color: red;
+	}
+	.allignment{
+		text-align: end;
+	}
+	
+.mt-mb-10{
+	display: block;
+	margin:10px 0;
+}
+.second-row-allignment a{
+	text-decoration: none;
+	color:#ffff;
+	text-decoration: var(--link-decoration);
+	background-color:transparent; 
+}
+.second-row-allignment li:hover{
+	font-size: 50px;
+}
+.swiper-container {
+  width: 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+#slider-img{
+	border: 1px solid red;
+	 background: linear-gradient(to bottom, #33ccff 0%, #060606 100%);
+	padding:100px;
+}
+.color-red{
+	border: 2px solid green;
+	 background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+	padding:100px;
+	width: 100%;
+}
+.color-blue{
+		border: 2px solid black;
+	 background: linear-gradient(to bottom, #ffff 0%, #ff99cc 100%);
+	padding:100px;
+	width: 100%;
+}
+.color-purple{
+		border: 2px solid black;
+	 background: linear-gradient(to bottom, #1125 0%, #ff99cc 100%);
+	padding:100px;
+	width: 100%;
+}
+#img-spacing{
+	padding-top: 50px;
+}
+.main-containt{
+	margin: 20px 0;
+}
+.main-containt img{
+	width: 100%;
+}
+.main-content-third-item{
+	margin: 20px 0;
+}
+.main-content-item-4 span{
+	background: #060606;
+    color: #ffff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 125px;
+    padding: 20px;
+    
+}
+.main-content-item-4 h1{
+	position: relative;
+}
+.main-content-item-4 h1:before{
+	content: "";
+	background: green;
+	display: inline-block;
+	width: 40%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	 bottom: 50%;
+	 height: 2px;
+}
+.main-content-item-4 h1:after{
+	content: "";
+  background: green;
+    width:40%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    top: 50%;
+    height:2px;
+}
+.fasion-brad span{
+	      width: 250px;
+    padding:40px;
+}
+.last-line-alignment{
+	margin-top: 50px;
+}
+.icon-alignment a{
+	font-size: 35px;
+	color: #060606;
+
+}
+.align-item{
+background:#f3f3f3;
+border-top: 2px solid black;
+}
+.align-item ul li {
+	list-style-type: none;
+	cursor: pointer;
+}
+.align-item ul li:hover{
+	text-decoration: underline;
+}
+.icon-alignment a{
+	margin-right:15px;
+	text-decoration: none;
+	display: inline-block;
+}
+.align-border-mt-mb{
+	
+	margin:20px 0;
+}
+.contact-us h4:hover{ 
+	cursor: pointer;
+	text-decoration: underline;
+}
+.text-fly-indoors{
+width: 65%;
+text-align: end;
+display: inline-block;
+}
+.stay-at-home strong{
+	vertical-align: sub;
+}
+.viewall{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 85px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 700;
+    margin-top: 10px;
+    }
+    .aside-filter-colors{
+    	width: 60%;
+    }
+    .aside-item-colors li{
+     width: 30px;
+    height: 30px;
+    top: 8px;
+    margin-right: 8px;
+    border-radius: 30px;
+    border: 1px #080808 solid;
+    display: inline-block;
+    background:blue;
+    }
+.select-size{
+      min-width: 130px;
+    height: 30px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid;
+    cursor: pointer;
+    }
+     .right-side-alignment{
+     	margin-bottom: 10px;
+     }
+    .right-side-alignment img{
+    	width: 240px;
+    	cursor: pointer;
+    }
