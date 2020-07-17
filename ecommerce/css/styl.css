@@ -94,7 +94,7 @@ a.effect-shine:hover {
 	background-color:transparent; 
 }
 .second-row-allignment li:hover{
-	font-size: 50px;
+	font-size:50px;
 }
 .swiper-container {
   width: 600px;
@@ -300,6 +300,9 @@ display: inline-block;
     width:fit-content;
     flex-direction: column;}
  .login-sign-up-mobile-view-hide{display: none;}
+ .second-row-allignment li:hover{
+	font-size:20px;
+}
  .navigation-bar ul li{display: block!important;
  	padding-bottom: 20px;width:200px;
  	margin-bottom:5px;}
