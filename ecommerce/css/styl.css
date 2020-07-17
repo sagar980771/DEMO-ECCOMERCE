@@ -74,7 +74,7 @@ a.effect-shine:hover {
 	}
 	.wraper-flex{
 		display: flex;
-		justify-content:space-between;
+		justify-content:space-evenly;
 	}
 	.fa-heart-o:before:hover{
 	color: red;
@@ -274,11 +274,12 @@ display: inline-block;
 .register-login{
 	text-decoration: none;
 }
+#show-hide-menu-bar{
+	display: none;
+}
+
     /*.....FOR MOBILE SIDE....*/
-    .menu-bar-icon{
-    	position: absolute;
-    	top: 30px;
-    }
+    
     .fa-bars{
     		font-size: 20px!important;
     }
@@ -292,11 +293,17 @@ display: inline-block;
 @media only screen and (max-width: 991px) {
   .fasion-brad {display: none;}
  .xyz-you {display: none;}
+ .main-content-item-4{display: none;}
+ .search-box{background-color: rgba(255,255, 255, 1);
+    box-shadow: 0 0 15px 9px #00000096;
+    margin-left: 10px;
+    width:fit-content;
+    flex-direction: column;}
  .login-sign-up-mobile-view-hide{display: none;}
  .navigation-bar ul li{display: block!important;
  	padding-bottom: 20px;width:200px;
  	margin-bottom:5px;}
- 	.navigation-alignment{background-color: rgba(255,255, 255, 1);
+ 	.navigation-bar{background-color: rgba(255,255, 255, 1);
     box-shadow: 0 0 15px 9px #00000096;
     margin-left: 10px;
     width:fit-content;
@@ -309,9 +316,24 @@ display: inline-block;
     }
     .wraper-flex{justify-content:end!important	;margin-left: 50px;}
 .mt-mb-10{margin-right: 50px;}
+.login-allignment{display: none;}
+.navigation-alignment{display: none;}
 }
 @media only screen and (max-width:991px){
 	.login-mobile-view{
 		width:100%!important;
 	}
+}
+.menu-to-show{
+	display: none;
+}
+.use-flex{
+	display: flex;
+	align-items: center;
+}
+.float-right{
+	float: right;
+}
+.pd-20{
+	padding: 20px;
 }

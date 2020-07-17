@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
- 	<link rel="stylesheet" type="text/css" href="css/login.css">
-	 <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -12,9 +12,9 @@
 <link href="css/styl.css" rel="stylesheet">
 </head>
 <body>
-	<!-- HEARDER STRAT -->
-	<header>
-          <div class="container-fluid menu-bar-icon">
+  <!-- HEARDER STRAT -->
+  <header>
+      <div class="container-fluid menu-bar-icon">
          <i class="fa fa-bars" aria-hidden="true"></i>
       </div>
          <div class="container-fluid">
@@ -24,11 +24,14 @@
                      <h1 class="text-center"> <a href="#">XYZ.COM</a></h1>
                   </div>
                </div>
+               <div class="show-hide-menu-bar">
                <div class="col-xs-12 col-sm-3 col-md-3 login-mobile-view">
                   <div class="login-allignment">
+                     <div class="login-sign-up-mobile-view-hide">
                      <a href="login.html" class="text-center effect-shine">LOGIN</a>
                      <span class="line"></span>
                      <a href="register.html" class="text-center effect-shine sign-up">SIGN UP</a>
+                  </div>
                      <div class="wraper-flex">
                         <span class="mt-mb-10">
                         <a href="#" class="wishlist"><i class="fa fa-heart-o effect-shine-change"></i></a>
@@ -42,8 +45,8 @@
                      </div>
                   </div>
                </div>
-            </div>
-         </div>
+            
+     
          <!--second row-->
          <div class="container-fluid">
             <div class="row navigation-alignment">
@@ -76,43 +79,56 @@
                </div>
             </div>
          </div>
-         <hr />
+      </div>
+         </div>
+      </div>
       </header>
+      <hr />
       
-<!-- 	HEADER END -->
-	<div class="container">
+<!--  HEADER END -->
+  <div class="container">
 <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12">
-		<div class="login-reg-panel">
-		<div class="register-info-box">
-			<h2>Don't have an account?</h2>
-			<p>Lorem ipsum dolor sit amet</p>
-		<a href="register.html" class="register-login"><span id="label-login" for="log-login-show">Register</span></a>
-			<input type="radio" name="active-log-panel" id="log-login-show">
-		</div>
-							
-		<div class="white-panel">
-			<div class="login-show">
-				<h2>LOGIN</h2>
-				<input type="text" placeholder="Email">
-				<input type="password" placeholder="Password">
-				<input type="button" value="Login">
-				<a href="">Forgot password?</a>
-			</div>
-			<div class="register-show">
-				<h2>REGISTER</h2>
-				<input type="text" placeholder="Email">
-				<input type="password" placeholder="Password" >
-				<input type="password" placeholder="Confirm Password">
-				<input type="button" value="Register">
-			</div>
-		</div>
-	</div>
-	</div>
+  <div class="col-xs-12 col-sm-12 col-md-12">
+    <div class="login-reg-panel">
+    <div class="register-info-box">
+      <h2>Don't have an account?</h2>
+      <p>Lorem ipsum dolor sit amet</p>
+    <a href="register.html" class="register-login"><span id="label-login" for="log-login-show">Register</span></a>
+      <input type="radio" name="active-log-panel" id="log-login-show">
+    </div>
+              
+    <div class="white-panel">
+      <div class="login-show">
+        <h2>LOGIN</h2>
+        <input type="text" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="button" value="Login">
+        <a href="">Forgot password?</a>
+      </div>
+      <div class="register-show">
+        <h2>REGISTER</h2>
+        <input type="text" placeholder="Email">
+        <input type="password" placeholder="Password" >
+        <input type="password" placeholder="Confirm Password">
+        <input type="button" value="Register">
+      </div>
+    </div>
+  </div>
+  </div>
 </div>
-	</div>
-	<script>
-		
+  </div>
+   <script>
+           $(document).ready(function(){
+  $(".menu-bar-icon").click(function(){
+    $(".login-allignment").fadeToggle();
+  });
+    $(".menu-bar-icon").click(function(){
+    $(".navigation-alignment").fadeToggle();
+  });
+});
+      </script>
+  <script>
+    
     $(document).ready(function(){
     $('.login-info-box').fadeOut();
     $('.login-show').addClass('show-log-panel');
@@ -146,6 +162,6 @@ var url = 'register.html';
 $(location).attr('href', 'register.html');
 })
 });
-	</script>
-	</body>
+  </script>
+  </body>
 </html>
